@@ -6,6 +6,11 @@ import {
   LogOut,
   GraduationCap,
   Briefcase,
+  Trophy,
+  BarChart3,
+  Bell,
+  Settings,
+  Shield,
 } from "lucide-react";
 import { NavLink } from "@/components/NavLink";
 import { ThemeToggle } from "@/components/ThemeToggle";
@@ -27,6 +32,11 @@ const navItems = [
   { title: "Add Achievement", url: "/add", icon: PlusCircle },
   { title: "Records Management", url: "/records", icon: FileText },
   { title: "Student Portfolio", url: "/portfolio", icon: Briefcase },
+  { title: "Leaderboard", url: "/leaderboard", icon: Trophy },
+  { title: "Analytics", url: "/analytics", icon: BarChart3 },
+  { title: "Faculty Dashboard", url: "/faculty", icon: Shield },
+  { title: "Notifications", url: "/notifications", icon: Bell },
+  { title: "Settings", url: "/settings", icon: Settings },
   { title: "Profile", url: "/profile", icon: User },
 ];
 
